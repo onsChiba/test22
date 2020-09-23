@@ -1,0 +1,114 @@
+<html>
+<head>
+<title>bootstrap highlight</title>
+	<script src="js/jquery-2.2.1.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/styles.css">
+	<style>
+	.my-round-btn {
+		width: 40px;
+		height: 40px;
+		border-radius: 20px;
+	}
+	</style>
+	<script>
+
+    </script>
+
+</head>
+<body>
+  <h3> glyphicon ( &lt;span class="glyphicon glyphicon-xy"/&gt; ) </h3>
+   <p>glyphicon-envelope: <span class="glyphicon glyphicon-envelope"/> &nbsp;&nbsp; glyphicon-search: <span class="glyphicon glyphicon-search"/> &nbsp;&nbsp; glyphicon-print: <span class="glyphicon glyphicon-print"/></p>
+   <p>glyphicon-euro: <span class="glyphicon glyphicon-euro"/> &nbsp;&nbsp; glyphicon-usd: <span class="glyphicon glyphicon-usd"/> &nbsp;&nbsp; glyphicon-asterisk: <span class="glyphicon glyphicon-asterisk"/></p>
+   <p>glyphicon-heart: <span class="glyphicon glyphicon-heart"/> &nbsp;&nbsp; glyphicon-star: <span class="glyphicon glyphicon-star"/> &nbsp;&nbsp; glyphicon-user: <span class="glyphicon glyphicon-user"/></p>
+   
+    <p>glyphicon-ok: <span class="glyphicon glyphicon-ok"/> &nbsp;&nbsp; glyphicon-remove: <span class="glyphicon glyphicon-remove"/> &nbsp;&nbsp; glyphicon-plus: <span class="glyphicon glyphicon-plus"/></p>
+   <p>glyphicon-minus: <span class="glyphicon glyphicon-minus"/> &nbsp;&nbsp; glyphicon-pencil: <span class="glyphicon glyphicon-pencil"/> &nbsp;&nbsp; glyphicon-music: <span class="glyphicon glyphicon-music"/></p>
+   <p>glyphicon-signal: <span class="glyphicon glyphicon-signal"/> &nbsp;&nbsp; glyphicon-home: <span class="glyphicon glyphicon-home"/> &nbsp;&nbsp; glyphicon-file: <span class="glyphicon glyphicon-file"/></p>
+   
+    <p>glyphicon-time: <span class="glyphicon glyphicon-time"/> &nbsp;&nbsp; glyphicon-download: <span class="glyphicon glyphicon-download"/> &nbsp;&nbsp; glyphicon-refresh: <span class="glyphicon glyphicon-refresh"/></p>
+   <p>glyphicon-volume-up: <span class="glyphicon glyphicon-volume-up"/> &nbsp;&nbsp; glyphicon-book: <span class="glyphicon glyphicon-book"/> &nbsp;&nbsp; glyphicon-camera: <span class="glyphicon glyphicon-camera"/></p>
+   <p>glyphicon-move: <span class="glyphicon glyphicon-move"/> &nbsp;&nbsp; glyphicon-play: <span class="glyphicon glyphicon-play"/> &nbsp;&nbsp; glyphicon-pause: <span class="glyphicon glyphicon-pause"/></p>
+   
+    <p>glyphicon-stop: <span class="glyphicon glyphicon-stop"/> &nbsp;&nbsp; glyphicon-fast-backward: <span class="glyphicon glyphicon-fast-backward"/> &nbsp;&nbsp; glyphicon-step-backward: <span class="glyphicon glyphicon-step-backward"/> &nbsp;&nbsp; glyphicon-backward: <span class="glyphicon glyphicon-backward"/></p>
+   <p> glyphicon-forward: <span class="glyphicon glyphicon-forward"/>&nbsp;&nbsp;  glyphicon-step-forward: <span class="glyphicon glyphicon-step-forward"/> &nbsp;&nbsp; glyphicon-fast-forward: <span class="glyphicon glyphicon-fast-forward"/> &nbsp;&nbsp; glyphicon-floppy-save: <span class="glyphicon glyphicon-floppy-save"/></p>
+   <p>glyphicon-chevron-left: <span class="glyphicon glyphicon-chevron-left"/> &nbsp;&nbsp; glyphicon-chevron-right: <span class="glyphicon glyphicon-chevron-right"/> &nbsp;&nbsp; glyphicon-triangle-bottom: <span class="glyphicon glyphicon-triangle-bottom"/>&nbsp;&nbsp; glyphicon-triangle-top: <span class="glyphicon glyphicon-triangle-top"/></p>
+   <p> ... , ... </p>
+   
+<p>Envelope icon as a link:
+  <a href="#"><span class="glyphicon glyphicon-envelope"/></a>
+</p>
+<p>Search icon on a styled button:
+  <button type="button" class="btn btn-info">
+    <span class="glyphicon glyphicon-search"/> Search
+  </button>
+&nbsp;&nbsp;&nbsp;  
+Print icon on a styled link button:
+  <a href="#" class="btn btn-success btn-lg">
+    <span class="glyphicon glyphicon-print"/> Print
+  </a>
+</p> 
+
+<h5> boutons ronds avec glyphicon (border-radius css attribute in my-round-btn custom class)</h5>
+<button class="btn btn-primary my-round-btn"><span class="glyphicon glyphicon-user"></span></button>
+<button class="btn btn-default my-round-btn">
+    <span class="glyphicon glyphicon-shopping-cart" style="color:green"/>
+</button>
+
+ <hr/>
+  <h3> badge (indicateur dans rond) et label (dans rectangle arrondi) </h3>
+   <a href="#">News link with sub span/.badge<span class="badge">5</span></a><br/>
+   <a href="#">Updates link with sub span/.badge<span class="badge">2</span></a> <br/>
+   <br/>
+   <p><span class="badge">a</span> texte1 qui va bien avec span/.badge</p>
+   <p><span class="badge">b</span> texte2 qui va bien avec span/.badge</p>
+   <br/>
+   <button type="button" class="btn btn-primary">primary button with sub span/.badge <span class="badge">7</span></button>
+   <br/>
+   <br/>
+   <p> texte1 qui va bien avec span/.label .label-info <span class="label label-info">nouveau</span></p>
+   <p> texte2 qui va bien avec span/.label .label-info <span class="label label-info">en promo</span></p>
+   
+   variantes de label:
+    <span class="label label-default">label-default</span>
+	<span class="label label-primary">label-primary</span>
+	<span class="label label-success">label-success</span>
+	<span class="label label-info">label-info</span>
+	<span class="label label-warning">label-warning</span>
+	<span class="label label-danger">label-danger</span>
+  
+   <hr/>
+   <h3> effets sur images (.img-rounded , .img-circle , .img-thumbnail , .img-responsive)</h3>
+    <img src="images/paris.jpg" class="img-rounded" alt="paris" width="150" height="100" />
+	<img src="images/sanfran.jpg" class="img-circle" alt="sanfransico" width="150" height="100" />
+	<img src="images/newyork.jpg" class="img-thumbnail" alt="newyork" width="150" height="100" />
+	<div class="row">
+	   <div class="col-xs-offset-1 col-xs-2">
+	      <img src="images/paris.jpg" class="img-responsive" alt="paris" /><br/>
+		  (responsive)
+		</div>
+	</div>
+  <hr/>
+  <h3> div/.well (encradrement) </h3>
+    
+	<div class="well">encadrement avec bordure arrondie , padding et fond grise par defaut <br/>
+	taille moyenne par defaut , classes complementaires well-sm et well-lg </div>
+	<div class="container">
+	    <div class="well">div/.well inside div/.container</div>
+	</div>
+	
+	 <p>This is some text (outside jumbotron).</p>
+	 
+ <hr/>	 
+	<h3> jumbotron (sorte de well avec grossissement relatif) </h3>
+
+	<div class="jumbotron">
+     ...
+    <p>texte (grossi) dans jumbotron</p>
+	...
+  </div>
+  <p>This is some text (outside jumbotron).</p>
+	
+</body>
+</html>
